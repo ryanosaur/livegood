@@ -1,8 +1,47 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+  color: #40454B;
 }
+
+a:hover{
+  text-decoration: none;
+  color: #00050B;
+}
+
+.giver {
+  color: #228b22;
+}
+
+a.giver:hover{
+  text-decoration: none;
+  color: #228b22;
+}
+
+.container{
+  width:940px;
+  position:relative;
+}
+
+.index-banner{
+  margin-bottom:20px;
+}
+
+.footer{
+  border-top: 1px solid #00050B;
+  border-top-style: dotted;
+  bottom:-10;
+  position: absolute;
+  width: 100%;
+  height: 20px;
+}
+
+.beige{
+  background-color:#F0EFEB;
+  height:370px;
+}
+
+
